@@ -1,0 +1,34 @@
+
+RAM:
+•	Primary Memory Storage.
+•	They are of two types:
+•	Static RAM – Made of Flip Flop
+•	Dynamic RAM – Made of Capasitors
+•	Static RAM is faster than Dynamic RAM
+ARM:
+	Cortex A -> Application
+	Cortex R -> Real Time Application
+	Cortex M -> Microcontroller 
+
+BUS:
+o	Used to communicate between CPU and Computer.
+o	Peripherals – GPIO (To communicate outside the environment.
+o	These are sent by  ‘System Bus’[S bus]
+o	AHB1 -> 180 MHz (Maximum)
+o	AHB/APB1 and AHB/APB2 are two types is AHB1.
+GPIO:
+o	Reading Digital Signals -> Input Device
+o	Issuing Interrupts
+o	Generating triggers for external components -> Output Device
+o	Generic Pin: Value consists of one or two voltage settings(high or low). Behaviour can be programmed using software.
+o	Generic Port: All the pins are connected to the port
+o	Multiplexing: This behaviour can be seen in pins as they possess multiple process at a time.
+o	Input Mode: We use Internal Pull Up or Internal Pull Down
+o	Output mode: We use the Pull Up Register always gives 0 . Gate Drain Source(GDS). Open Drain State can also be used.
+o	Clock is known as the heartbeat. Enable the clock to access the pin.
+o	Memory Mapped I/O: Uses memory to access the I/O by making partition in memory with address.
+o	Registers -> Structure -> Type def -> Made as structure pointer -> Named as RCC.
+o	AHB1ENR is known as the member.
+
+
+
