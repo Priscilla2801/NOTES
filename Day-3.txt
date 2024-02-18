@@ -1,0 +1,19 @@
+To Find the included file:-
+File -> Drivers -> CMSIS -> Device -> ST -> STM32F4XX -> Include -> STM32f4XX.h -> STM32446XX.h 
+Follow:
+   Line number:
+o	458
+o	550
+o	937
+o	1121
+STRUCTURE:
+	typedef struct
+       {
+	   int a;
+	   int b;
+        }c;
+C variable_name;
+Line-1121: 
+#define GPIOA    ((GPIO_Typedef*) GPIOA_BASE)
+•	GPIO_Typedef – structure is used to assign it to the
+GPIOA_BASE using pointer.
