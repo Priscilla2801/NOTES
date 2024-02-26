@@ -1,0 +1,17 @@
+To Flash:
+•	Flash Memory
+•	SD Card
+•	Network Boot
+The way to boot and to mount the root files is known as the Porting.
+
+Procedure:
+SOC  ->  has a board & flashed  ->  Boot ROM  ->  Searches the at91 boot strap  ->  
+SRAM(Loads the at91 boot strap code)  ->  Goes t RAM and initializes  ->  Loads the U boot 
+code to RAM  ->  u boot loads the .dtb file & zimage to RAM  -> RFS then mounts the root file 
+system.
+	
+.dtb: 
+•	Can be attached to any kernel.
+•	Makes work easier by reducing confusion in connecting the board and the kernel based on its type.
+•	Passed as an argument to kernel.
+
