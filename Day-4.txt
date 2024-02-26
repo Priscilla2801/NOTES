@@ -1,0 +1,30 @@
+UART
+•	Serial communication: 8-bit data is transferred one bit at a time.
+•	Parallel communication: 8-bit data is transferred at the same time.
+•	MSB :- Most Significant Bit ,  LSB :- Least Significant Bit.
+•	The MSB or LSB which will be called or used first it depends on the protocol i.e. the rules given by the user.
+•	Serial Communication is of two types:
+	Synchronous			
+	Asynchronous
+Synchronous: Clock is transmitted with data
+Asynchronous: No clock is transmitted. Transmitter and receiver agree on the clock speed for the data transmission.
+UART:-
+	Serial communication uses asynchronous. It can also be synchronous.
+	UART – Universal Asynchronous Receiver/ Transmitter
+	USART – Universal Synchronous Receiver/ Transmitter 
+Duplex:  Data can be transmitted and received.
+Simplex: Data can be transmitted only or received only.
+Half Duplex: Data can be transmitted in only one way at a time.
+Full Duplex: Data can be transmitted  in both ways at a time.
+	UART follows Full Duplex.
+Asynchronous Transmission:
+ Each byte is packed between the start and stop bits. 
+Start Bit  has the value of 1 bit and is always 0.
+Stop bit can have 2 bit at most and 1 bit at the minimum else it’s a 1 ½ bit and its value is always 1.
+Parity bit:- The parity bit is a simple form of error detection used in serial communication protocols like UART (Universal Asynchronous Receiver Transmitter)
+Mode:- Receiver and Transmitter.
+Word Length:- 8 bit or 16 bit.
+UART – Program Explained.
+
+
+
