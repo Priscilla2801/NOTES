@@ -1,0 +1,31 @@
+CISC - Complex Instrction Set Architecture
+RISC - Reduced Instruction Set Architecture
+ 	
+	The processor that could delier both high performance and energy efficient tend to the creation of the arm processor.
+ARM:-
+	Instruction Set
+	Register Set
+	Exception Model
+	Memory Model
+	Debug,Trace and Profiling
+RISC:-
+	Simple isntruction
+	Simple Addressing Modes
+	Load Store Architecture
+MICRO ARCHITECTURE:-
+	Build and Design of a processor is referred as mcro architecture. Includes:
+		Pipeline length and layout
+		Number and sizes of caches
+		Cycle counts for individual instructions
+		Which optional features are implemented
+IP - CORE:-
+	IP Core = Implementation in VHDL or Verilog of a block of hardware logic.
+	ARM develops IP core which implements the specification
+PROCESSOR FAMILY:-
+	ARM processor families group multiple processors and was named chronologically,starting with ARM1(1985) upto ARM11(2002)
+	Naming scheme then changed with the cortex family introduced in 2005, in which processor are named with the following scheme cortex( Cortex M4)
+	Each new family introduced new processors, with an improved design, better performance and new features.	
+	'F' - VFP floating point unit
+	'T' or 'T2' - Thumb or Thumb2 instruction encoding
+	'J' - Jazette
+	'Z' - Trustzone Extension.
